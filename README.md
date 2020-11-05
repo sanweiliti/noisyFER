@@ -57,7 +57,7 @@ and `datasets/rafd/basic/Image/myaligned/imgs` repectively.
 ### CIFAR-10
 On CIFAR-10, train the model with 3 sets of different noisy labels, each set of labels with 20%/30%/40% noise ratiois:
 ```
-python train_cifar10_inconsist_label.py --lambda_gan=0.8 --gan_start_epoch=0 --root=DIR_TO_CIFAR10
+python train_cifar10_inconsist_label.py --lambda_gan=0.8 --root=datasets/cifar10/cifar-10-batches-py
 ```
 
 ### RAF-base:
