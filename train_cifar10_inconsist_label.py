@@ -6,6 +6,8 @@ from loader.dataloader_cifar10_multi import DataloaderCifar10_MultiLabel
 from utils import *
 from torch.utils import data
 from metrics import *
+import random
+from tensorboardX import SummaryWriter
 from model.inconsistent_label_model import InconsistLabelModel
 
 
