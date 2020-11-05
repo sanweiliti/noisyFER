@@ -16,12 +16,6 @@ Download the following datasets to `datasets/`
 * [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 * [RAF-DB](http://www.whdeng.cn/RAF/model1.html)
 * [AffectNet](http://mohammadmahoor.com/affectnet/)
-## Noisy Labels
-The noisy machine labels created from pretrained models for RAF-base and AffectNet-base experiments are:
-*  `noisy_labels/list_label_AffectnetModel.txt`: noisy discrete emotion labels created for RAF-base training (from pretrained model on AffectNet)
-*  `noisy_labels/list_va_AffectnetModel.txt`: noisy continuous valence/arousal labels created for RAF-base training (from pretrained model on AffectNet)
-*  `noisy_labels/training_RAFModel.csv`: noisy discrete emotion labels created for AffectNet-base training (from pretrained model on RAF)
-* We use the original valence/arousal labels in AffectNet in AffectNet-base training.
 
 Organize the dataset folder as:
 ```
@@ -39,6 +33,14 @@ Project
 |   |   |   |   ├── list_patition_label.txt
 |   |   |   ├── Image
 ```
+
+## Noisy Labels
+The noisy machine labels created from pretrained models for RAF-base and AffectNet-base experiments are:
+*  `noisy_labels/list_label_AffectnetModel.txt`: noisy discrete emotion labels created for RAF-base training (from pretrained model on AffectNet)
+*  `noisy_labels/list_va_AffectnetModel.txt`: noisy continuous valence/arousal labels created for RAF-base training (from pretrained model on AffectNet)
+*  `noisy_labels/training_RAFModel.csv`: noisy discrete emotion labels created for AffectNet-base training (from pretrained model on RAF)
+* We use the original valence/arousal labels in AffectNet in AffectNet-base training.
+
 
 ## Crop and align images
 First crop and align face images in AffectNet and RAF-DB dataset with the same crop/align protocol:
