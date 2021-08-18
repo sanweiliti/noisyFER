@@ -6,7 +6,7 @@ in a unified adversarial learning game.
 
 **Facial Emotion Recognition with Noisy Multi-task Annotations** <br>
 Siwei Zhang, Zhiwu Huang, Danda Pani Paudel, Luc Van Gool <br>
-[[Full Paper]](https://arxiv.org/pdf/2010.09849.pdf)
+[[Full Paper]](https://arxiv.org/pdf/2010.09849.pdf) [[Video]](https://www.youtube.com/watch?v=bszy34vY-2o)
 
 ## Dependencies
 Run `pip install -r requirements.txt` to install required dependencies.
